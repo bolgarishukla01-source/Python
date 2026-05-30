@@ -1,0 +1,13 @@
+s1='python'
+print(s1)
+print(type(s1))
+s2="python"
+print(s2)
+s3="""python"""
+print(s3)
+print(type(s3))
+print(s1[-1])
+print(s1[1])
+print(s1[-2])
+print(s1[0:5])
+print(s1[::-1])
