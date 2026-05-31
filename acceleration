@@ -1,0 +1,6 @@
+v, t = map(float, input().split())
+v1, v2, t_accel = map(float, input().split())
+displacement = v * t
+acceleration = (v2 - v1) / t_accel
+print(f"{displacement:.2f} displacement")
+print(f"{acceleration:.2f} acceleration")
