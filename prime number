@@ -1,0 +1,25 @@
+import math
+
+def check_prime():
+    try:
+        n = int(input())
+        
+        if n <= 1:
+            print(f"{n} is not prime")
+            return
+        is_prime = True
+        for i in range(2, int(math.sqrt(n)) + 1):
+            if n % i == 0:
+                is_prime = False
+                break
+        
+        if is_prime:
+            print(f"{n} is prime")
+        else:
+            print(f"{n} is not prime")
+            
+    except ValueError:
+        pass
+
+if __name__ == "__main__":
+    check_prime()
