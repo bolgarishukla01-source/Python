@@ -1,0 +1,11 @@
+lst=[20,28,25,21,29]
+lst.append(39)
+print(lst)
+lst.insert(1,99)
+print(lst)
+lst.remove(21)
+print(lst)
+lst.pop(2)
+print(lst)
+lst.sort()
+print(lst)
