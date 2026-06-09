@@ -1,0 +1,7 @@
+def linear_search(arr, target):
+    for index, element in enumerate(arr):
+        if element == target:
+            return index
+    return -1
+nums = [10, 50, 30, 70]
+print(linear_search(nums, 30))
