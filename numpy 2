@@ -1,0 +1,9 @@
+import numpy as np
+matrix_a = np.array([[1, 2], 
+                     [3, 4]])
+matrix_b = np.array([[5, 6], 
+                     [7, 8]])
+result_operator = matrix_a @ matrix_b
+result_matmul = np.matmul(matrix_a, matrix_b)
+print("Result using @:\n", result_operator)
+print("Result using matmul:\n", result_matmul)
