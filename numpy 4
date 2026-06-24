@@ -1,0 +1,10 @@
+import numpy as np
+
+# Define a square matrix
+matrix = np.array([[4, 7], 
+                   [2, 6]])
+
+# Calculate the matrix inverse
+matrix_inverse = np.linalg.inv(matrix)
+
+print(matrix_inverse)
